@@ -1,0 +1,18 @@
+{
+  "name": "婚姻平權立法",
+  "question": "您是否贊成以立法方式，給予同性戀者「類似婚姻」或「婚姻」關係，以保障其權利及法律地位？",
+  "input": "example-join",
+  "model": "gpt-3.5-turbo",
+  "extraction": {
+    "workers": 3,
+    "limit": 500,
+    "prompt_file": "example-join"
+  },
+  "clustering": {
+    "clusters": 5
+  },
+  "takeaways": {
+    "prompt_file": "example-join"
+  },
+  "intro": "您是否贊成以立法方式，給予同性戀者「類似婚姻」或「婚姻」關係，以保障其權利及法律地位？"
+}
